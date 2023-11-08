@@ -16,12 +16,11 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "home.md", title: "Home"}
   - {file: "AmirCV.pdf", title: "CV"}
-  - {file: "index.html", title: "Blogs"}
+  - {file: "blogs.html", title: "Blogs"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "amir.buchali@gmail.com"}
+  - {title: Mail, icon: envelope, mailto: "amir.buchali@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/buchali"}
   - {title: LinkedIn, icon: linkedin, url: "https://linkedin.com/in/buchali/"}
 
